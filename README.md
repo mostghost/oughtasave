@@ -10,7 +10,8 @@ Step 2: Disable Krita's built in autosave (not strictly required but every time 
   **AUTOMATIC**  
 Step 3: Tools > Scripts > Import Python Plugin from File  
 Step 4: Select your .zip file  
-Step 5: Restart Krita  
+Step 5: Restart Krita
+Step 6: (If docker isn't visible for some reason) Settings > Dockers > Oughtasave  
   
   **MANUAL**    
 Step 3: Settings > Manage Resources  
@@ -19,6 +20,8 @@ Step 5: Unzip your .zip into the 'pykrita' folder
 Step 6: Settings > Configure Krita, and then 'Python Plugin Manager' at the bottom of the list of tabs  
 Step 7: Enable Oughtasave  
 Step 8: Restart Krita  
+Step 9: (If docker isn't visible for some reason) Settings > Dockers > Oughtasave  
+
   
 # How to Use
 It should be pretty self explanatory, hit the big button that says 'Click to start Oughtasave' to start Oughtasave. But a few things to note:  
