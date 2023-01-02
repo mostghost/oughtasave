@@ -10,7 +10,7 @@ Step 2: Disable Krita's built in autosave (not strictly required but every time 
   **AUTOMATIC**  
 Step 3: Tools > Scripts > Import Python Plugin from File  
 Step 4: Select your .zip file  
-Step 5: Restart Krita
+Step 5: Restart Krita  
 Step 6: (If docker isn't visible for some reason) Settings > Dockers > Oughtasave  
   
   **MANUAL**    
