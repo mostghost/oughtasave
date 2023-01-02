@@ -1,5 +1,7 @@
 # Oughtasave
-A replacement for krita's built-in autosave functionality, except this one is meant to simply save your file automatically and will never delete itself in the name of no longer being "_necessary_". It is set up as a docker; however, you do not need to keep the docker visible if you enable autostart in the settings tab.  
+A replacement for krita's built-in autosave functionality. Krita's built in autosave could more accurately be described as crash recovery- it is automatically deleted when krita is shut down by the user. Unfortunately, due to user error or krita misunderstanding a crash as a shut down and deleting the autosave itself, you can potentially lose a lot of work. Instead, this plugin will simply save your file automatically- every X number of minutes, it will either overwrite your save file, or create a new incremental save file, depending on your settings.  
+
+It is set up as a docker; however, you do not need to keep the docker visible if you enable autostart in the settings tab.  
 
 # Installation
 Step 1: Download the file from either 'releases' or from the code tab to the upper left (hit 'download zip' at the bottom)   
